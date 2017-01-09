@@ -35,7 +35,32 @@
 
 	<main>
 		<div class="row">
-			<div></div>
+			<label><input type="checkbox" id="box" onchange="isCheck()"> CheckBox</label>
+
+			<input type="radio" name="r1" value="5"> 5
+			<input type="radio" name="r1" value="53"> 53
+			<input type="radio" name="r1" value="85"> 85
+			<p><button class="button" onClick="fun1()">isChecked</button></p>
+
+			<section class="lesson-2">
+				<select name="" id="myPhone" onchange="selectPhone()">
+					<option value="iPhone">iPhone</option>
+					<option value="">Samsung</option>
+					<option value="">Xiaomi</option>
+					<option value="">Meizu</option>
+				</select>
+
+				<p class="your-select" id="select"></p>
+
+				<input type="range" min = '0' max = '200' step="1" oninput="input()" id="range">
+				<p id="valRange"></p>
+				<input type="text" id="inp1">
+
+				<div id="test" class="text-center">
+
+				</div>
+			</section>
+
 		</div>
 	</main>
 

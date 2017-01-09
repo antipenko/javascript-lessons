@@ -67,3 +67,15 @@ p{
 	background: yellow;
 	}
 }
+
+input[type='range']{
+	display: block;
+	width: 100%;
+}
+
+#test{
+	height: 40px;
+	min-width: 40px;
+	background: #4d780c;
+	border:1px solid black;
+}
