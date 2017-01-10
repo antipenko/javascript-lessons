@@ -32,10 +32,15 @@ function setBorderRad() {
                                 bli.value + 'px';
 };
 function printCode() {
-    code.innerHTML = 'border-radius: ' + tli.value + 'px ' +
-        tri.value + 'px ' +
-        bri.value + 'px ' +
-        bli.value + 'px';
+    code.innerHTML = "-webkit-border-radius: " + tli.value + 'px ' +
+                        tri.value + 'px ' +
+                        bri.value + 'px ' +
+                        bli.value + 'px ' +
+                    '<br>' +
+                    'border-radius: ' + tli.value + 'px ' +
+                        tri.value + 'px ' +
+                        bri.value + 'px ' +
+                        bli.value + 'px';
 }
 
 tlr.addEventListener('input', function () {

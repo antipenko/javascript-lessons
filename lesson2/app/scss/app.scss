@@ -60,6 +60,10 @@
 
 }
 .ls-range{
+	span{
+		display: inline-block;
+		width: 30%;
+	}
 	input[type='text']{
 		display: inline-block;
 		width: 80px;
